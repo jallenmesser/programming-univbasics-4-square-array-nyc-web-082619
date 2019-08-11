@@ -3,7 +3,7 @@ def square_array(array)
   while array[i] do
     sq_array = []
     sq_array.push(array[i] ** array[i])
-    i +=
+    i += 1
     return sq_array
   end
 end
