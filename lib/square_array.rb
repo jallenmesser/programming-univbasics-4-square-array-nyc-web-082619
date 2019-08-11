@@ -1,6 +1,6 @@
 def square_array(array)
   i = 0 
-  while array[i] do
+  while i < array.length do
     sq_array = []
     sq_array.push(array[i] ** array[i])
     i += 1
